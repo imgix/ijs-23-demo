@@ -13,16 +13,18 @@ To get started, clone this repo, start the dev server, and open the browser to <
 ## Demo
 This repository includes examples of the following imgix features:
 
-- AI Facial Detection
-- AI Background Removal
-- AI Super Resolution
-- Automatic Format Selection
+- AI [Facial Detection](https://docs.imgix.com/apis/rendering/face-detection)
+- AI [Background Removal](https://docs.imgix.com/apis/rendering/background-removal/bg-remove)
+- AI [Super Resolution](https://docs.imgix.com/apis/rendering/super-resolution/upscale)
+- Automatic [Format Selection](https://docs.imgix.com/apis/rendering/auto/auto)
 
-To add/remove imgix parameters edit the `src/components/ProductGrid.tsx` and `src/data/products.ts` files and add/remove parameters from the `imgixParams` objects.
+To add/remove imgix parameters:
+- edit the `src/components/ProductGrid.tsx` and `src/data/products.ts` files
+- add/remove parameters from the `imgixParams` objects.
 
 ## What is inside?
 
-This project uses many tools like:
+This project uses:
 
 - [Vite](https://vitejs.dev)
 - [ReactJS](https://reactjs.org)
