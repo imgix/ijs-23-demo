@@ -26,7 +26,7 @@ function ProductGrid({ products }: { products: any[] }) {
                   auto: 'format,compress',
                   fit: 'crop',
                   crop: 'faces,edges',
-                  'bg-remove': true,
+                  // 'bg-remove': true,
                   ...product.params
                 }}
               />

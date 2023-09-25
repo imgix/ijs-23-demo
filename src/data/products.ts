@@ -8,11 +8,11 @@ export const products = [
     price: '$200',
     color: 'Black',
     params: {
-      fit: 'crop',
-      crop: 'focalpoint',
-      'fp-x': 0.5,
-      'fp-y': 0.65,
-      'fp-z': 1.5
+      // fit: 'crop',
+      // crop: 'focalpoint',
+      // 'fp-x': 0.5,
+      // 'fp-y': 0.65,
+      // 'fp-z': 1.5
     }
   },
   {
@@ -69,9 +69,8 @@ export const products = [
     price: '$150',
     color: 'Black',
     params: {
-      fit: 'facearea',
-      facepad: 3.5
-      // upscale: false
+      // fit: 'facearea',
+      // facepad: 3.5
     }
   },
   {
